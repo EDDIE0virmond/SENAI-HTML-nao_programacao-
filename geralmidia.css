@@ -1,0 +1,36 @@
+body
+{
+    background-image: url(midia.jpg);
+    background-color: rgb(241, 255, 209);
+}
+h1
+{
+    background-color:rgb(201, 26, 26) ;
+    color:rgb(251, 255, 8) ;
+    text-align: center;
+    background-position: center;
+    background-size: contain;
+    display: table;
+    margin: auto ;
+}
+ul{
+    background-color: black;
+    margin: 0 32px 0 0 ;
+    display: table;
+    background-position: center;
+    color: aliceblue;
+}
+a
+{
+    color: rgb(248, 234, 152);
+}
+em
+{
+    background-color: rgb(250, 4, 4);
+    color: white;
+}
+strong
+{
+    background-color: black;
+    color: rgb(97, 248, 10);
+}

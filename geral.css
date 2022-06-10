@@ -1,0 +1,78 @@
+
+<<<<<<< HEAD
+/* primeira forma*/
+body
+{
+    font-size: 1/5cm;
+    background-color: black;
+    background-image: url('vader.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+h1
+{
+    background-color: rgb(248, 37, 3);
+    color: white;
+    text-align: center;
+    background-position: center;
+    background-size: contain;
+    display: table;
+    margin: auto ;
+}
+em
+{
+    background-color: rgb(248, 37, 3);
+    color: white;
+}
+strong
+{
+    background-color: rgb(248, 37, 3);
+    color: white;
+}
+
+/* primeira forma*/
+a
+{
+    color: black;
+=======
+/*Exemplo de CSS Externo*/
+
+body{
+    background-color:cornsilk;
+>>>>>>> f10ed80cb1d80fed979f995527297fe900503bb6
+}
+
+/*pai*/
+ul{
+    background-color: rgb(255, 255, 255);
+    margin: 0 32px 0 0 ;
+    display: table;
+    background-position: center;
+    color: black;
+}
+
+<<<<<<< HEAD
+=======
+/*filho*/
+
+ul li{
+    background-color:brown;
+}
+/*neto*/
+ul li a{
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+>>>>>>> f10ed80cb1d80fed979f995527297fe900503bb6
