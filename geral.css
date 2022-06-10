@@ -1,5 +1,5 @@
 
-<<<<<<< HEAD
+
 /* primeira forma*/
 body
 {
@@ -36,12 +36,6 @@ a
 {
     color: black;
 =======
-/*Exemplo de CSS Externo*/
-
-body{
-    background-color:cornsilk;
->>>>>>> f10ed80cb1d80fed979f995527297fe900503bb6
-}
 
 /*pai*/
 ul{
@@ -52,27 +46,3 @@ ul{
     color: black;
 }
 
-<<<<<<< HEAD
-=======
-/*filho*/
-
-ul li{
-    background-color:brown;
-}
-/*neto*/
-ul li a{
-    background-color: aqua;
-}
-
-
-
-
-
-
-
-
-    
-
-
-
->>>>>>> f10ed80cb1d80fed979f995527297fe900503bb6
