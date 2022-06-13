@@ -19,10 +19,22 @@ ul{
     display: table;
     background-position: center;
     color: aliceblue;
+    border: 2px solid rgb(248, 234, 152) ;
 }
-a
+ul li 
+{
+    display: inline;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+ul li a
 {
     color: rgb(248, 234, 152);
+}
+ul li a:hover
+{
+    color: black;
+    background-color: rgb(248, 234, 152) ;
 }
 em
 {
