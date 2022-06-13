@@ -20,6 +20,13 @@ ul{
     background-position: center;
     color: aliceblue;
 }
+ul li
+{
+    display: inline;
+    padding-left: 6px;
+    padding-right: 6px;
+
+}
 ul li a
 {
     color: white;
@@ -34,7 +41,11 @@ strong
     background-color: black;
     color: white;
 }
-
+ul li a:hover
+{
+    color: rgba(255, 0, 0, 0.582);
+    background-color: rgba(255, 255, 255, 0.568);
+}
 
 
 

@@ -51,5 +51,15 @@ ul{
     display: table;
     background-position: center;
     color: black;
+    border: 3px solid black;
 }
 
+a:hover
+{
+    color: red;
+    background-color: white;
+}
+#Text
+{
+    height: 700px;
+}

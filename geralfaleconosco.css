@@ -18,7 +18,14 @@ ul{
     margin: 0 32px 0 0 ;
     display: table;
     background-position: center;
-    color: black;
+    color: rgb(253, 10, 253);
+}
+ul li
+{
+    display: inline;
+    padding-left: 6px;
+    padding-right: 6px;
+
 }
 em
 {
@@ -32,5 +39,10 @@ strong
 }
 ul li a
 {
+    color: rgba(247, 11, 255, 0.795);
+}
+ul li a:hover
+{
     color: black;
+    background-color: rgb(252, 7, 231);
 }
