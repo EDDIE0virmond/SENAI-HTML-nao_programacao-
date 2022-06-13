@@ -30,3 +30,26 @@ margin: auto;
     border: 3px solid salmon;
     height: 10000px;
 }
+#body ul li 
+{
+    display: inline;
+    padding-left: 6px;
+    padding-right: 6px;
+    text-align: center;
+    background-position: center;
+    margin: auto;
+    position: relative ;
+}
+#body ul li a
+{
+    color: salmon;
+}
+#body ul li a:hover
+{
+    color: white;
+    background-color: salmon;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
