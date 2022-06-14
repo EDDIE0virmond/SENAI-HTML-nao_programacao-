@@ -68,3 +68,7 @@ footer, header, hgroup, menu, nav, section {
     color: rgb(243, 144, 16);
     background-color: chartreuse;
 }
+#search
+{
+    text-align: right;
+}

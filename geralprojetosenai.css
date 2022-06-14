@@ -1,11 +1,6 @@
 title{
     color: brown;
 }
-
-
-
-
-
 h1{
 background-color: purple;
 color: black;
@@ -36,13 +31,18 @@ margin: auto;
     padding-left: 6px;
     padding-right: 6px;
     text-align: center;
-    background-position: center;
+   
     margin: auto;
     position: relative ;
 }
 #body ul li a
 {
+
+    left: inherit;
     color: salmon;
+    text-align: center;
+    margin: auto;
+    background-position: center;
 }
 #body ul li a:hover
 {
@@ -52,4 +52,13 @@ margin: auto;
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+}
+#coin-slider
+{
+    position: relative;
+    text-align: center;
+    background-position: center;
+    background-color: #1673be;
+    margin: auto;
+
 }

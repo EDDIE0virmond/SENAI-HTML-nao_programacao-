@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="geralprojetosenai.css">
     <title>PROJETO ESCOLA - Senai BRASILIA </title>
+
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/coin-slider.min.js"></script>
+    <link rel="stylesheet" href="js/coin-slider-styles.css" type="text/css" />
+
 </head>
 <body>
     <div id="topo">
@@ -14,6 +19,20 @@
          educação de forma gratuíta e livre</h1>
         </div>
       <div id = "body">
+        <div id="coin-slider">
+            <a href="" target="_blank">
+                <img src='coffeemucg.jpg' >
+                <span>
+                    Coding and Coffee
+                </span>
+            </a>
+            <a href="midiasenai.html" target="_blank">
+                <img src='socialmedia.jpeg' >
+                <span>
+                    Midia Social 
+                </span>
+            </a>
+        </div>
 
 
           <ul>
@@ -60,4 +79,9 @@
     </header>
     
 </body>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#coin-slider').coinslider();
+    });
+</script>
 </html>
