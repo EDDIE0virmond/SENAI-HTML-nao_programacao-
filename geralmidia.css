@@ -20,6 +20,8 @@ ul{
     background-position: center;
     color: aliceblue;
     border: 2px solid rgb(248, 234, 152) ;
+    text-align: center;
+    margin: auto;
 }
 ul li 
 {
@@ -45,4 +47,9 @@ strong
 {
     background-color: black;
     color: rgb(97, 248, 10);
+}
+#Text
+{
+    margin: auto;
+    text-align:center;
 }

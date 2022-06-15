@@ -19,32 +19,47 @@ ul{
     display: table;
     background-position: center;
     color: aliceblue;
+    text-align: center;
+    margin: auto;
 }
 ul li
 {
     display: inline;
     padding-left: 6px;
     padding-right: 6px;
+    text-align: center;
+    margin: auto;
 
 }
 ul li a
 {
     color: white;
+    text-align: center;
+    margin: auto;
 }
 em
 {
     background-color: black;
     color: white;
+    text-align: center;
+    margin: auto;
 }
 strong
 {
     background-color: black;
     color: white;
+    text-align: center;
+    margin: auto;
 }
 ul li a:hover
 {
     color: rgba(255, 0, 0, 0.582);
     background-color: rgba(255, 255, 255, 0.568);
+}
+#Text
+{
+    text-align: center;
+    margin: auto;
 }
 
 

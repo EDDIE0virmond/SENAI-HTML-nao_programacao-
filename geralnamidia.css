@@ -11,7 +11,11 @@ strong
     background-color: rgba(165, 42, 42, 0.658);
 
 }
-
+#icon
+{
+    text-align: center;
+    margin: auto;
+}
 
 
 h1{
@@ -39,6 +43,11 @@ margin: auto;
     background-color: aliceblue;
     height: 10000px;
 }
+#body ul
+{
+    text-align: center;
+    margin: auto;
+}
 #body ul li 
 {
     display: inline;
@@ -48,15 +57,21 @@ margin: auto;
     background-position: center;
     margin: auto;
     position: relative ;
+    text-align: center;
+    margin: auto;
 }
 #body ul li a
 {
     color: rgb(114, 250, 216);
+    text-align: center;
+    margin: auto;
 }
 #body ul li a:hover
 {
     color: white;
     background-color: rgb(114, 250, 216);
+    text-align: center;
+    margin: auto;
     
 }
 article, aside, details, figcaption, figure, 
@@ -71,4 +86,18 @@ footer, header, hgroup, menu, nav, section {
 #search
 {
     text-align: right;
+}
+#Text
+{
+    margin: auto;
+    text-align:center;
+}
+#coin-slider
+{
+    position: relative;
+    text-align: center;
+    background-position: center;
+    background-color: #1673be;
+    margin: auto;
+
 }

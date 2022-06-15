@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="geralnamidia.css">
     <title>Na Midia</title>
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/coin-slider.min.js"></script>
+    <link rel="stylesheet" href="js/coin-slider-styles.css" type="text/css" />
 </head>
 <body>
     <main>
         <div id="topo">
-            <img src="megaphonewithsoundlines_121960.png" alt="32px">
+            <div id="icon">
+                <img src="megaphonewithsoundlines_121960.png" alt="32px">
+            </div>
             <h1>
                 Na Midia
             </h1>
@@ -32,11 +37,43 @@
             Estamos entusiasmados em criar e criar, nossas paginas sao distribuidas <br>
             com muito amor e carinho.  
             </em> Agradeco a sua visita ao site e às nossas midias sociais, esteje muito bem  </strong>
+            <div id="coin-slider">
+                <a href="projetodosenai.html" target="_blank">
+                    <img src='coffeemucg.jpg' >
+                    <span>
+                        Coding and Coffee
+                    </span>
+                </a>
+                <a href="https://www.instagram.com/?hl=en" target="_blank">
+                    <img src="instagram.jpg" >
+                    <span>
+                        Instagram
+                    </span>
+                </a>
+                <a href="projetosmenu.html" target="_blank">
+                    <img src="">
+                    <span>
+                        Projetos for Life
+                    </span>
+                </a>
+                <a href="https://www.facebook.com/facebook/">
+                    <img src="face.jpg" >
+                    <span>
+                        Facebook
+                    </span>
+                </a>
+                <a href="https://www.youtube.com/">
+                    <img src="yt.jpg">
+                    <span>
+                        YOUTUBE
+                    </span>
+                </a>
+            </div>
             <ul>
                 <li><a href="projetodosenai.html">HOME</a></li>
                 <li><a href="">A EQUIPE</a></li>
-                <li><a href="">O PROJETO</a></li>
-                <li> <a href="">PORTIFÓLIO</a></li>
+                <li><a href="projetosmenu.html">O PROJETO</a></li>
+                <li> <a href="portifolio.html">PORTIFÓLIO</a></li>
                 <li><a href="">FALE CONOSCO</a></li>
             </ul>
         </div>
@@ -45,4 +82,9 @@
         Dirigido por Eduardo Virmond &#169
     </header>
 </body>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#coin-slider').coinslider();
+    });
+</script>
 </html>

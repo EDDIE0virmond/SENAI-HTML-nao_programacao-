@@ -18,12 +18,14 @@ margin: auto;
     background-color:#1673be;
     color:#ffffff ;
     text-transform: uppercase;
+    text-align: center;
 
 }
 #body
 {
     border: 3px solid salmon;
     height: 10000px;
+    text-align: center;
 }
 #body ul li 
 {
@@ -31,9 +33,8 @@ margin: auto;
     padding-left: 6px;
     padding-right: 6px;
     text-align: center;
-   
     margin: auto;
-    position: relative ;
+    
 }
 #body ul li a
 {

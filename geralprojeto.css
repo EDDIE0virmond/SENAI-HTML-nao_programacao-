@@ -19,6 +19,8 @@ ul{
     display: table;
     background-position: center;
     color: rgba(240, 248, 255, 0.507);
+    text-align: center;
+    margin: auto;
 }
 ul li
 {
@@ -45,4 +47,9 @@ a:hover
 {
     color: red;
     background-color: white;
+}
+#Text
+{
+    margin: auto;
+    text-align:center;
 }
