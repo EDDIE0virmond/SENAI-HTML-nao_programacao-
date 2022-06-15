@@ -129,3 +129,9 @@ footer, header, hgroup, menu, nav, section {
     display: table;
     margin: auto;
 }
+#vader
+{
+    background-color: black;
+    color: white;
+    border: 5px solid red;
+}
