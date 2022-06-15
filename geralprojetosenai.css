@@ -1,6 +1,15 @@
 title{
     color: brown;
 }
+body
+{
+    font-size: 1/5cm;
+    background-color: rgb(197, 5, 255);
+    background-image: url('csh.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
 h1{
 background-color: purple;
 color: black;
@@ -10,6 +19,26 @@ background-size: contain;
 display: table;
 margin: auto;
 
+}
+em
+{
+    color: aliceblue;
+    background-color: #1673be;
+}
+strong
+{
+    color: aliceblue;
+    background-color: #1673be;
+}
+strong:hover
+{
+    color: salmon;
+    background-color: black;
+}
+em:hover
+{
+    color: salmon;
+    background-color: black;
 }
 #topo{
     width:100%;
@@ -62,4 +91,41 @@ footer, header, hgroup, menu, nav, section {
     background-color: #1673be;
     margin: auto;
 
+}
+#text1
+{
+    font-size:25px;
+    text-align: center; 
+    color: aliceblue; 
+    background-color: black; 
+    background-size: contain;
+    margin: auto;
+}
+#text1:hover
+{
+ 
+    text-align: center; 
+    color: salmon; 
+    background-color: gold; 
+    background-size: contain;
+    margin: auto;
+}
+
+#text2
+{
+    text-align:center;
+    color: aliceblue;
+    background-color: black; 
+    background-size: contain;
+    display: table;
+    margin: auto;
+}
+#text2:hover
+{
+    text-align:center;
+    color: salmon;
+    background-color: gold; 
+    background-size: contain;
+    display: table;
+    margin: auto;
 }
