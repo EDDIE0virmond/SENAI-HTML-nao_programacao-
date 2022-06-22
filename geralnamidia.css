@@ -62,14 +62,14 @@ margin: auto;
 }
 #body ul li a
 {
-    color: rgb(114, 250, 216);
+    color: rgb(4, 252, 190);
     text-align: center;
     margin: auto;
 }
 #body ul li a:hover
 {
     color: white;
-    background-color: rgb(114, 250, 216);
+    background-color: rgb(6, 252, 190);
     text-align: center;
     margin: auto;
     
